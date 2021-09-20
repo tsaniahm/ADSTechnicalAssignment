@@ -9,7 +9,7 @@ INPUT N
 SET i <- 1
 
 FOR i to N
-   IF i Mod 3 is 0 THEN
+   IF i mod 3 is 0 THEN
 	DISPLAY "Fizz"
    ELSE IF i mod 5 is 0 THEN
 	DISPLAY "Buzz"
