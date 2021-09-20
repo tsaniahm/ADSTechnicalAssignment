@@ -1,21 +1,22 @@
 DEKLARASI:
-N: Number
+N, i: Number
 
 --------------------------------------------
 DESKRIPSI: 
 
 START
 INPUT N
+SET i <- 1
 
-FOR 1 to N
-   IF N Mod 3 is 0 THEN
+FOR i to N
+   IF i Mod 3 is 0 THEN
 	DISPLAY "Fizz"
-   ELSE IF N mod 5 is 0 THEN
+   ELSE IF i mod 5 is 0 THEN
 	DISPLAY "Buzz"
-   ELSE IF N mod 5 is 0 AND N mod 3 is 0 THEN
+   ELSE IF i mod 5 is 0 AND i mod 3 is 0 THEN
 	DISPLAY "FizzBuzz"
    ELSE 
-	DISPLAY N
+	DISPLAY i
    ENDIF
    ENDIF
    ENDIF	
