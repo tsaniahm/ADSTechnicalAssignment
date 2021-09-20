@@ -1,0 +1,22 @@
+DEKLARASI :
+Grade,FinalGrade, A: Number
+
+------------------------------------------------
+DESKRIPSI:
+
+START
+INPUT Grade
+IF Grade <=100 AND Grade >= 68 THEN
+	A <- grade Mod 5
+	IF A > 2 THEN
+		FinalGrade <- Grade + (5-A)
+	ELSE
+		FinalGrade <- Grade
+	ENDIF
+ELSE Grade < 68 AND Grade >= 0 THEN 
+	FinalGrade <-grade
+ENDIF
+
+DISPLAY FinalGrade
+STOP
+ 

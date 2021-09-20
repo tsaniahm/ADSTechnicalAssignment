@@ -1,0 +1,23 @@
+DEKLARASI:
+N: Number
+
+--------------------------------------------
+DESKRIPSI: 
+
+START
+INPUT N
+
+FOR 1 to N
+   IF N Mod 3 is 0 THEN
+	DISPLAY "Fizz"
+   ELSE IF N mod 5 is 0 THEN
+	DISPLAY "Buzz"
+   ELSE IF N mod 5 is 0 AND N mod 3 is 0 THEN
+	DISPLAY "FizzBuzz"
+   ELSE 
+	DISPLAY N
+   ENDIF
+   ENDIF
+   ENDIF	
+ENDFOR 
+STOP

@@ -1,0 +1,37 @@
+DEKLARASI:
+words, words2, temp: Array[1...N] of String
+A, X, i, j: Number
+
+---------------------------------------------
+DESKRIPSI:
+
+START
+INPUT Words
+SET A <- 0
+SET i <- 0
+SET j <- 0
+x <- leghtofstring (Words) - 1
+
+FOR i to x DO
+  IF words[i] <- ' ' THEN
+    words[i] <- return to 0
+  ELSE
+    words2[j] <- words[i]
+    j <- j + 1
+  ENDIF
+ENDFOR
+
+k <- j - 1
+
+FOR k DOWNTO 0
+  temp[A] <- words2[k]
+  A <- A + 1
+ENDFOR
+
+IF words2 is temp THEN
+ 	DISPLAY "TRUE"
+ELSE
+ 	DISPLAY "FALSE"
+ENDIF
+END
+

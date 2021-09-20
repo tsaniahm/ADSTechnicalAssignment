@@ -1,0 +1,22 @@
+DEKLARASI:
+N, Celcius: Number
+Type: String
+
+-------------------------------------------
+DESKRIPSI:
+
+START
+INPUT N
+INPUT Type
+
+IF Type  is Fahrenheit THEN 
+	Celcius <- (N - 32) * (5/9) 
+ELSE IF Type is Kelvin THEN
+	Celcius <- (N - 273.15)
+ELSE 
+	Celcius <- N
+ ENDIF
+ENDIF
+
+DISPLAY Celcius
+STOP
